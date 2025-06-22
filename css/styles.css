@@ -173,7 +173,6 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    margin-bottom: 8px;
 }
 
 .features-list {
@@ -197,6 +196,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .text-second-section {
