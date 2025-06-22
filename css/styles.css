@@ -33,6 +33,7 @@ footer {
 
 .second-section {
     background-color: #FFFFFF;
+    padding: 120px 0
 }
 
 .third-section {
@@ -43,6 +44,10 @@ footer {
 .fourth-section {
     background-color: #FFFFFF;
     padding: 120px 0;
+}
+
+.header-class {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .container {
@@ -62,10 +67,6 @@ footer {
     align-items: center;
 }
 
-.hero-content {
-    text-align: center;
-}
-
 .main-header {
         font-weight: 700;
         font-size: 56px;
@@ -74,6 +75,7 @@ footer {
         color: #FFFFFF;
         max-width: 496px;
         margin: 0 auto 48px;
+        text-align: center;
 }
 
 body {
@@ -90,7 +92,7 @@ body {
         text-transform: uppercase;
         font-family: "Raleway", sans-serif;
         color: #4d5ae5;
-        margin-right: 156px;
+        margin-right: 76px;
 }
 
 .accent-logo-header {
@@ -105,6 +107,7 @@ body {
 .nav-item {
 
 }
+
 
 .navigation-header {
     font-weight: 500;
@@ -125,7 +128,7 @@ body {
 }
 
 .address-header {
-    font-style: normal
+    font-style: normal;
 }
 
 .address-list {
@@ -170,13 +173,13 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    margin-bottom: 8px;
 }
 
 .features-list {
     display: flex;
     gap: 24px;
     justify-content: center;
-    padding: 120px 0;
 }
 
 .features-item {
@@ -203,7 +206,7 @@ body {
 }
 
 .header-third-section {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .members-list {
@@ -225,10 +228,15 @@ body {
 .third-section-list {
     background-color: #FFFFFF;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .members-photos {
 
+}
+
+.member-info {
+    padding: 32px 0;
 }
 
 .third-section .headers {
@@ -238,8 +246,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-        padding-top: 32px;
-        padding-bottom: 8px;
+        margin-bottom: 8px;
 }
 
 .third-section .texts {
@@ -247,21 +254,27 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-        padding-bottom: 32px;
 }
 
 .header-fourth-section {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
 }
 
 .fourth-section-list {
-    border-bottom: 1px solid #e7e9fc;
+
+}
+
+.portfolio-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .fourth-section .headers {
@@ -270,17 +283,13 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        padding-top: 32px;
-        padding-bottom: 8px;
-        padding-left: 16px;
+        margin-bottom: 8px;
 }
 
 .fourth-section .texts {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
-        padding-left: 16px;
 }
 
 .footer-section {
@@ -295,6 +304,8 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
         font-family: "Raleway", sans-serif;
+        margin-bottom: 16px;
+        display: inline-block
 }
 
 .accent-logo-footer {
@@ -306,6 +317,5 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        padding-top: 16px;
         max-width: 264px;
 }
