@@ -183,7 +183,6 @@ body {
 
 .features-item {
     width: 264px;
-    display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
